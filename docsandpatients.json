@@ -1,0 +1,201 @@
+{
+    "doctors": [
+        {
+            "geiger": {
+                "first_name": "Jeffrey",
+                "last_name": "Geiger",
+                "speciality": "Surgeon"
+            }
+        },
+        {
+            "hawkeye": {
+                "first_name": "Franklin",
+                "last_name": "Pierce",
+                "speciality": "Combat Surgeon"
+            }
+        },
+        {
+            "house": {
+                "first_name": "Gregory",
+                "last_name": "House",
+                "speciality": "Infectious Disease"
+            }
+        },
+        {
+            "who": {
+                "first_name": "The",
+                "last_name": "Doctor",
+                "speciality": "Time Travel"
+            }
+        },
+        {
+            "stratford": {
+                "first_name": "Mike",
+                "last_name": "Stratford",
+                "speciality": "Funny Bones"
+            }
+        }
+    ],
+    "patients": [
+        {
+            "svenson": {
+                "first_name": "Margot",
+                "last_name": "Svenson",
+                "ailment": "Arthritis",
+                "doctor_id": "stratford"
+            }
+        },
+        {
+            "marsden": {
+                "first_name": "Rube",
+                "last_name": "Marsden",
+                "ailment": "Arthritis",
+                "doctor_id": "stratford"
+            }
+        },
+        {
+            "stafford": {
+                "first_name": "Vinnie",
+                "last_name": "Stafford",
+                "ailment": "Arthritis",
+                "doctor_id": "stratford"
+            }
+        },
+        {
+            "laforge": {
+                "first_name": "Geordie",
+                "last_name": "LaForge",
+                "ailment": "Arthritis",
+                "doctor_id": "stratford"
+            }
+        },
+        {
+            "becker": {
+                "first_name": "Jenny",
+                "last_name": "Becker",
+                "ailment": "pregnant",
+                "doctor_id": "who"
+            }
+        },
+        {
+            "corsair": {
+                "first_name": "Boat",
+                "last_name": "Corsair",
+                "ailment": "Arthritis",
+                "doctor_id": "who"
+            }
+        },
+        {
+            "bluth": {
+                "first_name": "Maybe",
+                "last_name": "Bluth",
+                "ailment": "Arthritis",
+                "doctor_id": "who"
+            }
+        },
+        {
+            "locke": {
+                "first_name": "John",
+                "last_name": "Locke",
+                "ailment": "Arthritis",
+                "doctor_id": "who"
+            }
+        },
+        {
+            "campbell": {
+                "first_name": "Joseph",
+                "last_name": "Campbell",
+                "ailment": "Arthritis",
+                "doctor_id": "house"
+            }
+        },
+        {
+            "wise": {
+                "first_name": "Owl",
+                "last_name": "Wise",
+                "ailment": "Arthritis",
+                "doctor_id": "house"
+            }
+        },
+        {
+            "frank": {
+                "first_name": "Anne",
+                "last_name": "Frank",
+                "ailment": "Arthritis",
+                "doctor_id": "house"
+            }
+        },
+        {
+            "crusher": {
+                "first_name": "Westley",
+                "last_name": "Crusher",
+                "ailment": "Arthritis",
+                "doctor_id": "house"
+            }
+        },
+        {
+            "nimoy": {
+                "first_name": "Leonard",
+                "last_name": "Nimoy",
+                "ailment": "Arthritis",
+                "doctor_id": "hawkeye"
+            }
+        },
+        {
+            "cobain": {
+                "first_name": "Kurt",
+                "last_name": "Cobain",
+                "ailment": "Gunshot",
+                "doctor_id": "hawkeye"
+            }
+        },
+        {
+            "love": {
+                "first_name": "Courtney",
+                "last_name": "Love",
+                "ailment": "Arthritis",
+                "doctor_id": "hawkeye"
+            }
+        },
+        {
+            "bruce": {
+                "first_name": "Lenny",
+                "last_name": "Bruce",
+                "ailment": "Arthritis",
+                "doctor_id": "hawkeye"
+            }
+        },
+        {
+            "stipe": {
+                "first_name": "Michael",
+                "last_name": "Stipe",
+                "ailment": "Arthritis",
+                "doctor_id": "hawkeye"
+            }
+        },
+        {
+            "dalek": {
+                "first_name": "Evil",
+                "last_name": "Dalek",
+                "ailment": "Arthritis",
+                "doctor_id": "geiger"
+            }
+        },
+        {
+            "armstrong": {
+                "first_name": "Tim",
+                "last_name": "Armstrong",
+                "ailment": "Arthritis",
+                "doctor_id": "geiger"
+            }
+        },
+        {
+            "glen": {
+                "first_name": "John",
+                "last_name": "Glen",
+                "ailment": "Arthritis",
+                "doctor_id": "geiger"
+            }
+        }
+    ]
+}

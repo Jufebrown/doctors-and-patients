@@ -4,15 +4,19 @@ app.config(($routeProvider, $locationProvider) => {
   $locationProvider.hashPrefix('')
   $routeProvider
   .when('/', {
-    controller: 'MainCtrl',
-    templateUrl: 'partials/main.html'
+    controller: 'DoctorsCtrl',
+    templateUrl: 'partials/doctors.html'
+  })
+  .when('/', {
+    controller: 'DoctorsCtrl',
+    templateUrl: 'partials/patients.html'
   })
   .otherwise({
     redirectTo: '/'
   })
 })
 
-app.controller('MainCtrl', function($scope, mainFactory) {
+app.controller('DoctorsCtrl', function($scope, mainFactory) {
   mainFactory.getList()
   .then((val) => {
     console.log('val from mainctrl', val)

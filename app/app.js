@@ -8,7 +8,7 @@ app.config(($routeProvider, $locationProvider) => {
     templateUrl: 'partials/doctors.html'
   })
   .when('/', {
-    controller: 'DoctorsCtrl',
+    controller: 'PatientsCtrl',
     templateUrl: 'partials/patients.html'
   })
   .otherwise({
@@ -24,7 +24,7 @@ app.controller('DoctorsCtrl', function($scope, mainFactory) {
   })
 })
 
-app.controller('DetailCtrl', function($scope, $routeParams, $http) {
+app.controller('PatientsCtrl', function($scope, $routeParams, $http) {
   $scope.thatNumber = $routeParams.someVariable
   $http.get(`list.json`)
   .then(function(val) {
